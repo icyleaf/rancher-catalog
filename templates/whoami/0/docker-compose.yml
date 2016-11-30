@@ -1,0 +1,4 @@
+web:
+  image: emilevauge/whoami
+  ports:
+    - ${whoami_port}:80/tcp

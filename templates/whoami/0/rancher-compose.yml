@@ -1,0 +1,12 @@
+.catalog:
+  name: whoami
+  version: latest
+  description: Prints os information and HTTP request to output.
+  uuid: whoami-0
+
+  questions:
+   - variable: "whoami_port"
+     type: "int"
+     required: false
+     label: "whoami public port"
+     description: "Port that whoami will listen on."

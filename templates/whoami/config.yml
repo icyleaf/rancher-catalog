@@ -1,0 +1,6 @@
+name: whoami
+description: Prints os information and HTTP request to output
+version: latest
+category: Networking
+maintainer: icyleaf <icyleaf.cn@gmail.com>
+projectURL: https://github.com/emilevauge/whoamI

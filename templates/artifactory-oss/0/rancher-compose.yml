@@ -1,0 +1,19 @@
+.catalog:
+  name: artifactory-oss
+  version: latest
+  description: |
+    Universal Repository Manager supporting all major packaging formats, build tools and CI servers.
+  uuid: artifactory-oss-0
+
+  questions:
+   - variable: "web_port"
+     type: "int"
+     required: true
+     default: 8081
+     label: "artifactory public port"
+     description: "Port that artifactory will listen on."
+   - variable: "artifactory_volume"
+     type: "string"
+     required: true
+     label: "artifactory home volume"
+     description: "The path of artifactory to save data."

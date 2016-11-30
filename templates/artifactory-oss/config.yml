@@ -1,0 +1,7 @@
+name: JFrog Artifactory OSS
+description: |
+  JFrog Artifactory is the only Universal Repository Manager supporting all major packaging formats, build tools and CI servers.
+version: latest
+category: Repository
+maintainer: icyleaf <icyleaf.cn@gmail.com>
+projectURL: https://www.jfrog.com/artifactory/
