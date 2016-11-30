@@ -13,12 +13,12 @@
 
 参见官方文档: [http://docs.rancher.com/rancher/v1.0/en/catalog/](http://docs.rancher.com/rancher/v1.0/en/catalog/)
 
-## 版权声明 (License)
+## 疑惑解答
 
-Copyright (c) 2016 icyleaf, Inc.
+### Q: 如何在 macOS 上安装和使用 Rancher
 
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+A: 解答文章：[http://icyleaf.com/2016/08/how-to-install-rancher-on-osx/](http://icyleaf.com/2016/08/how-to-install-rancher-on-osx/)
 
-http://www.apache.org/licenses/LICENSE-2.0
+### Q: 有没有中文相关资料
 
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+A: [Rancher 实战红宝书](https://martinliu.gitbooks.io/rancher-docs/content/)
