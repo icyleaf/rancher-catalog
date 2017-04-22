@@ -5,8 +5,40 @@
   uuid: mariadb-0
 
   questions:
-   - variable: "mariadb_port"
+   - variable: "mysql_allow_empty_password"
+     type: "boolean"
+     default: false
+     required: false
+     label: "options if allow empty password"
+     description: "default is false"
+   - variable: "mysql_root_passwordt"
+     type: "string"
+     required: false
+     label: "options if allow empty password"
+     description: "default is false"
+   - variable: "mysql_random_root_password"
+     type: "boolean"
+     default: false
+     required: false
+     label: "random root password"
+     description: "default is false"
+   - variable: "mysql_user"
+     type: "string"
+     required: false
+     label: "user name"
+     description: "the username of default user"
+   - variable: "mysql_password"
+     type: "string"
+     required: false
+     label: "user password"
+     description: "the password of default user"
+   - variable: "mysql_database"
+     type: "string"
+     required: false
+     label: "database name"
+     description: "the name of default database"
+   - variable: "mysql_port"
      type: "int"
      required: false
-     label: "mariadb public port"
-     description: "Port that mariadb will listen on."
+     label: "public port"
+     description: "the port number of mariadb will listen on"
