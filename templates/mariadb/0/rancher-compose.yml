@@ -1,0 +1,12 @@
+.catalog:
+  name: MariaDB
+  version: latest
+  description: mariadb based on alpine
+  uuid: mariadb-0
+
+  questions:
+   - variable: "mariadb_port"
+     type: "int"
+     required: false
+     label: "mariadb public port"
+     description: "Port that mariadb will listen on."

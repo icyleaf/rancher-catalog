@@ -1,0 +1,4 @@
+mysql:
+  image: icyleafcn/mariadb
+  ports:
+    - ${mariadb_port}:3306/tcp

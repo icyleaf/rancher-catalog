@@ -1,0 +1,6 @@
+name: MariaDB
+description: mariadb based on alpine
+version: latest
+category: Networking
+maintainer: icyleaf <icyleaf.cn@gmail.com>
+projectURL: https://github.com/icyleaf/docker-images/tree/master/mariadb
